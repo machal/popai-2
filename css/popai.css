@@ -262,7 +262,6 @@ p{
 
 .nav-main{
 	padding: 0;
-	border-bottom: 2px solid rgb(153,153,154)
 }
 
 .nav-main-menu{
@@ -270,6 +269,12 @@ p{
 	padding: 0;
 	font-size: 18px;
 	line-height: 1;
+}
+
+.nav-main-bottom {
+	clear: both;
+	bottom: 0;
+	border-bottom: 2px solid rgb(153,153,154);	
 }
 
 /* Položka navigace */
