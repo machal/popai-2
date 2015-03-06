@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: 'ralewaybold';
-    src: url('fonts/Raleway-Bold-webfont.eot');
-    src: url('fonts/Raleway-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Raleway-Bold-webfont.woff2') format('woff2'),
-         url('fonts/Raleway-Bold-webfont.woff') format('woff'),
-         url('fonts/Raleway-Bold-webfont.ttf') format('truetype');
+    src: url('../fonts/Raleway-Bold-webfont.eot');
+    src: url('../fonts/Raleway-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Raleway-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/Raleway-Bold-webfont.woff') format('woff'),
+         url('../fonts/Raleway-Bold-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -14,11 +14,11 @@
 
 @font-face {
     font-family: 'ralewayregular';
-    src: url('fonts/Raleway-Regular-webfont.eot');
-    src: url('fonts/Raleway-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Raleway-Regular-webfont.woff2') format('woff2'),
-         url('fonts/Raleway-Regular-webfont.woff') format('woff'),
-         url('fonts/Raleway-Regular-webfont.ttf') format('truetype');
+    src: url('../fonts/Raleway-Regular-webfont.eot');
+    src: url('../fonts/Raleway-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Raleway-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Raleway-Regular-webfont.woff') format('woff'),
+         url('../fonts/Raleway-Regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
