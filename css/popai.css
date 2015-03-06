@@ -264,9 +264,9 @@ p{
 	padding: 0;
 }
 
-.nav-main-menu{
+.nav-main-menu{	
 	margin: 0;
-	padding: 0;
+	padding: 10px 0;
 	font-size: 18px;
 	line-height: 1;
 }
@@ -281,7 +281,7 @@ p{
 
 .nav-main-menu li{
 	display: inline-block;
-	padding: 20px 0;
+	padding: 10px 0;
 }
 
 .nav-main-menu a{
