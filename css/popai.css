@@ -1,0 +1,406 @@
+/*GENERAL*/
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('fonts/Raleway-Bold-webfont.eot');
+    src: url('fonts/Raleway-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Raleway-Bold-webfont.woff2') format('woff2'),
+         url('fonts/Raleway-Bold-webfont.woff') format('woff'),
+         url('fonts/Raleway-Bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('fonts/Raleway-Regular-webfont.eot');
+    src: url('fonts/Raleway-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Raleway-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Raleway-Regular-webfont.woff') format('woff'),
+         url('fonts/Raleway-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Hlavní logo POPAI */
+.logo {
+	width: 175px;
+	height: auto;
+	border: 0px solid red;
+}
+
+/* Obrázek na homepage k aktualitě */
+.img-circle{
+	width: 200px;
+	height: 200px;
+	border: 8px solid rgba(255,0,0,0.7);
+	margin: 25px;
+	padding: -0px;
+	float: left;
+}
+
+/* Obrázek ke článku, detailu skupiny, detailu člena */
+
+.art-img{
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+.art-img-small{
+	float: left;
+	width: 200px;
+	height: 100px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+.small-img{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+.header{
+	border-bottom: 0px solid rgb(153,153,154);
+	position: relative;
+	margin-bottom: 15px;
+	margin-top: 25px;
+	/*display: inline-block;*/
+}
+
+.footer{
+	border-top: 0px solid rgb(153,153,154);
+	padding-top: 25px;
+	margin-top: 15px;
+}
+
+.container-fluid{
+	border: 0px solid red;
+	/*display: flex;*/
+	/*align-items: center;*/
+}
+
+h2{
+	font-family: 'ralewaybold', verdana, sans-serif;
+	font-size: 30px;
+	float: none;
+	color: rgb(204,0,51);
+	text-transform: uppercase;
+}
+
+h4{
+	font-family: 'ralewaybold', verdana, sans-serif;
+	font-size: 18px;
+	float: none;
+	color: rgb(204,0,51);
+	padding-top: 10px;
+	padding-bottom: 0px;	
+}
+
+.glyphicon{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+}
+
+.glyphicon-upload{
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
+
+.article-header{
+	border: 0px solid red;
+	display: inline;
+	float: right;
+	margin-top: 15px;	
+}
+
+.article-header > a{
+	font-family: 'ralewayregular', verdana, sans-serif;
+	font-size: 14px;
+	color: rgb(111,111,111);
+}
+
+.article-header > p{
+	display: inline;
+	padding: 14px;
+	font-family: 'ralewayregular', verdana, sans-serif;
+	font-size: 14px;
+	color: rgb(111,111,111);
+}
+
+.headline{
+	font-weight: bold;
+	font-style: italic;
+}
+
+p{
+	font-family: 'ralewayregular', verdana, sans-serif;
+	font-size: 16px;
+	color: rgb(111,111,111);
+	margin-top: 20px;
+}
+
+.p1{
+	font-family: 'ralewaybold', verdana, sans-serif;
+	font-size: 18px;
+	color: rgb(153,153,154);
+	padding: 0px;	
+	margin: 0px;
+}
+
+.par{
+	font-family: 'ralewayregular', verdana, sans-serif;
+	font-size: 16px;
+	color: rgb(111,111,111);	
+}
+
+.par li{
+	padding: 5px;
+}
+
+/*NAVIGACE*/
+
+.nav{
+	border-bottom: 0px solid rgb(153,153,154);
+	padding-top: 15px;
+}
+
+.nav li {
+  display: inline;
+  padding-left: 0px;
+  padding-right: 0px;
+  vertical-align: middle;
+}
+
+.nav a{
+	font-family:'ralewayregular', verdana, sans-serif;
+	font-size: 18px;
+	color: rgb(153,153,154);
+	padding: 10px 5px;
+	text-transform: uppercase;
+	border: 0px solid red;
+	text-decoration: none;
+}
+
+
+
+/* Logo + navigace */
+
+.nav-top{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 2px solid rgb(153,153,154)		
+}
+
+/* Logo */
+.nav-top-logo{
+	margin: 0;
+	padding: 0;	
+}
+
+/* Navigace u loga */
+
+.nav-top-menu{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1;	
+}
+
+/* Položka navigace u loga */
+
+.nav-top-menu li{
+	display: inline-block;
+	padding: 20px 0;
+}
+
+.nav-top-menu a{
+	padding: 0 10px;
+	border-right: 1px solid rgb(153,153,154);
+}
+
+.nav-top-menu li:last-child a{
+	border-right: none;
+}
+
+/* Responzivní chování pro logo a navigaci u loga */
+
+.nav-top-logo{
+	width: 25%;
+	float: left;
+}
+
+.nav-top-menu{
+	width: 75%;
+	float: right;
+	text-align: right;
+}
+
+/* Hlavní navigace */
+
+.nav-main{
+	padding: 0;
+	border-bottom: 2px solid rgb(153,153,154)
+}
+
+.nav-main-menu{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1;
+}
+
+/* Položka navigace */
+
+.nav-main-menu li{
+	display: inline-block;
+	padding: 20px 0;
+}
+
+.nav-main-menu a{
+	padding: 0 10px;
+	border-right: 1px solid rgb(153,153,154);
+}
+
+.nav-main-menu li:last-child a{
+	border-right: none;
+}
+
+/* Vyhledávání u hlavní navigace */
+
+.nav-main-search{
+	margin: 0;
+	padding: 0;
+}
+
+/* Responzivní layout hlavní navigace */
+
+.nav-main-menu{
+	width: 75%;
+	float: left;
+}
+
+.nav-main-search{
+	width: 25%;
+	float: right;
+	text-align: right;
+	padding: 15px 0 20px;
+}
+
+/* Navigace POPAI */
+
+.nav-popai{		
+	padding: 0;
+	margin-top: 35px;
+}
+
+.nav-popai-menu{
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1;
+	background-color: rgb(153,153,154);
+}
+
+/* Položka POPAI navigace */
+
+.nav-popai-menu li{
+	display: inline-block;
+	padding: 5px 0;
+}
+
+.nav-popai-menu a{
+	padding: 0 5px;
+	border-right: 1px solid white;
+	color: white;
+}
+
+.nav-popai-menu li:last-child a{
+	border-right: none;
+}
+
+/* Responzivní chování POPAI navigace */
+
+.nav-popai-menu{
+	float: right;
+}
+
+/* Menu v zápatí stránky*/
+
+.nav-bottom{
+	margin-top: 50px;
+	padding: 20px;
+	border-top: 2px solid rgb(153,153,154)
+}
+
+.nav-bottom-menu{	
+	padding: 0;	
+	font-size: 18px;
+	line-height: 1;	
+	text-align: center;
+}
+
+/* Položky menu v zápatí stránky */
+
+.nav-bottom-menu li{
+	display: inline-block;
+	padding: 5px 0;	
+}
+
+.nav-bottom-menu a{
+	padding: 0 10px;
+	border-right: 1px solid rgb(153,153,154);
+}
+
+.nav-bottom-menu li:last-child a{
+	border-right: none;
+}
+
+a:hover{
+	color: rgb(204,0,51);
+}
+
+a:active{
+	color: rgb(204,0,51);
+}
+
+a:focus{
+	color: rgb(204,0,51);
+}
+}
+
+@media only screen and (max-width: 640px) {
+
+	.nav-top-logo .nav-main-search{
+		width: auto;
+		float: none;
+		text-align: center;
+	}
+
+	.nav-top-menu .nav-main-menu .nav-popai-menu{
+		width: auto;
+		float: none;
+	}
