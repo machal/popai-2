@@ -293,12 +293,29 @@ p{
 	border-right: none;
 }
 
+
+
 /* Vyhledávání u hlavní navigace */
 
 .nav-main-search{
 	margin: 0;
-	padding: 0;
+	padding: 0;	
+	position: relative;
 }
+
+.nav .nav-main-search-input {
+	display: block;
+	margin: 0;
+	margin-right: 70px;	
+}
+
+.nav .nav-main-search-icon {
+	display: block;
+	position: absolute;
+	margin: 0;
+	right: 0px;
+	top: 15px;
+}	
 
 /* Responzivní layout hlavní navigace */
 
@@ -313,6 +330,33 @@ p{
 	text-align: right;
 	padding: 15px 0 20px;
 }
+
+
+
+/* Hlavní navigace na mobilech */
+
+@media only screen and (max-width: 680px) {
+
+	/*Zrušíme layout*/
+	
+	.nav-main-menu,
+	.nav-main-search {
+		width: auto;
+		float: none;
+	}
+
+	.nav-main-menu li,
+	.nav-main-menu li a {
+		display: block;
+	}
+
+	.nav-main-menu li a {
+		border-right: none;
+	}
+
+	
+} 
+
 
 /* Navigace POPAI */
 
